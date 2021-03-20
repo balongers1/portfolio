@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #1A1A1A;
+    scroll-behavior: smooth;
+}
+
+
+.work-mains,
+.vids-main,
+.work-main,
+.skill-main,
+.about-main,
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+     background: #fff3ca;
+}
+
+.bg-content h1{
+    margin: 10px;
+    text-align: center;
+}
+.bg-content p{
+    color: #767676;
+    z-index: 1;
+}
+
+
+.bg-content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 570px;
+    /* border: solid black; */
+    width: 1250px;
+}
+
+.bg-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 85px;
+}
+
+.bg-img img{
+   z-index: 1;
+
+}
+.bg-img h1{
+    font-size: 35px;
+    z-index: 1;
+}
+.down{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+}
+
+.down p{
+    font-size: 13px;
+}
+#sky,
+#voilet,
+#yellow{
+    position: absolute;
+}
+#sky{
+    left: 100px;
+    top: 150px;
+}
+#yellow{
+    right: 50px;
+    bottom: -20px;
+}
+#voilet{
+    top: 10px;
+    left: 490px;
+}
+
+
+/* ======================== */
+/* about */
+.about-container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    /* border: solid black; */
+    width: 1250px;
+    /* overflow: visible; */
+    /* padding-bottom: 190px; */
+}
+
+.about-content {
+    width: 40%;
+    z-index: 1;
+    margin-top: -120px;
+}
+
+.about-content p{
+    margin-top: 20px;
+    line-height: 172%;
+    color: #767676;
+}
+.about-content h1{
+    font-size: 35px;
+    letter-spacing: 0.05em;
+}
+
+.about-img {
+    margin-top: 300px;
+    z-index: 1;
+}
+
+#gre,
+#red,
+#vio{
+    position: absolute;
+}
+
+#vio{
+    left: 80px;
+    top: 150px;
+}
+
+#gre{
+    right: 120px;
+    top: 100px;
+}
+
+#red{
+    bottom: 0;
+    right: 10px;
+}
+
+
+/* ======================== */
+/* skill */
+
+.skill-container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 600px;
+    /* border: solid black; */
+    width: 1250px;
+    /* overflow: visible; */
+    /* padding-bottom: 190px; */
+}
+
+.skill-container p{
+    color: #767676;
+    margin: 13px 0;
+}
+
+.skill-container h1{
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+.skill-content{
+    /* border: solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 80%;
+}
+
+
+
+/* ======================== */
+/* work*/
+.work-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    /* border: solid black; */
+    width: 1250px;
+    /* overflow: visible; */
+    /* padding-bottom: 190px; */
+}
+
+.work-container p{
+    width: 40%;
+    text-align: center;
+    margin: 20px 0;
+    line-height: 172%;
+    color: #767676;
+}
+
+.work-container h1{
+    font-size: 35px;
+    letter-spacing: 0.05em;
+}
+
+.work-container img{
+    margin: 20px;
+}
+
+.sample{
+    /* border: solid black; */
+    margin-top: -100px;
+}
+
+.work-containers{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px 0 20px 20px;
+}
+/* ===================== */
+/* vids */
+
+.vids-main{
+    background: #1A1A1A;
+}
+.vids-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    /* border: solid black; */
+    width: 1250px;
+    /* overflow: visible; */
+    /* padding-bottom: 190px; */
+}
+
+video{
+    border-radius: 10px;
+    /* border: black solid; */
+    width: 60%;
+    height: auto;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+
+@media only screen and (max-width: 1300px) {
+    .bg-main{
+        width: 100%;
+        border: solid black; 
+    }
+    .bg-content{
+        width: 100%;
+    }
+
+    /* ======================== */
+    /* about */
+    .about-container{
+        height: 900px;
+        border: solid black;
+        width: 100%;
+    }
+
+    /* ======================== */
+    /* skill */
+    .skill-container{
+        border: solid black;
+        width: 100%;
+    }
+
+    /* ======================== */
+    /* work*/
+    .work-container{
+        border: solid black;
+        width: 100%;
+    }
+
+    .work-container p{
+        width: 70%;
+    }
+    
+}
+
+@media only screen and (max-width: 1040px) {
+    .bg-main{
+        border: solid red;
+        height: 100%;
+        padding-bottom: 40px;
+    }
+    .bg-content{
+        width: 100%;
+    }
+    
+    /* ======================== */
+    /* about */
+    .about-container{
+        flex-direction:column-reverse;
+        border: solid red;
+    }
+    .about-img {
+        margin-top: 100px;
+        z-index: 1;
+    }
+    #vio{
+        left: 0px;
+        top: 350px;
+    }
+ 
+    .about-content {
+        width: 85%;
+        margin-top: 300px;
+        text-align: center;
+    }
+
+}
+@media only screen and (max-width: 899px) {
+    /* ======================== */
+    /* skill */
+    .skill-content{
+        /* border: solid black; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+
+     /* ======================== */
+    /* skill */
+    .skill-container{
+        height: 100%;;
+        padding: 70px 0;
+    }
+    .skill-container h1{
+        margin-bottom: 10px;
+        font-size: 30px;
+        margin-top: 50px;
+    }
+
+    .work-container h1{
+        margin-top: 80px;
+    }
+    .work-container p{
+        width: 90%;
+    }
+    
+}
+@media only screen and (max-width: 450px) {
+    .bg-content h1{
+     width: 100%;
+     font-size: 28px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+  
+}
