@@ -8,13 +8,21 @@
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="swiper.css">
+    <link rel="stylesheet" href="gsap.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Document</title>
 </head>
-<body>
+<body >
+
+    <div class="overlay">
+        <h1 class="anim1 ">Hi!</h1>
+    </div>
 
     <!-- ====================== -->
     <!-- BG-HERO-->
@@ -25,7 +33,7 @@
                     <input type="checkbox" id="nav-check" />
                     <div class="nav-header">
                         <div class="nav-title">
-                            <a href="index.html">ANGELO.</a>
+                            <a href="index.html" >ANGELO.</a>
                         </div>
                     </div>
                     <div class="nav-btn">
@@ -37,18 +45,18 @@
                     </div>
 
                     <div class="nav-links">
-                        <a href="#about"  data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-duration="1200">about</a>
-                        <a href="#work"  data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-duration="1400">work</a>
-                        <a href="#contact"  data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-duration="1000">contact me</a>
+                        <a class="nav1" href="#about">About</a>
+                        <a class="nav2" href="#work">Work</a>
+                        <a class="nav3" href="#contact">Contact me</a>
                     </div>
                 </div>
             </nav>
             <section class="bg-content">
 
                 <div class="bg-img">
-                    <img src="img/m1.png" alt="">
-                    <h1>I’m a ux-ui designer & developer</h1>
-                    <p>Design is intelligence made visible.</p>
+                    <img class="c1" src="img/m1.png" alt="">
+                    <h1 class="c2">I’m a ux-ui designer & developer</h1>
+                    <p class="c3">Design is intelligence made visible.</p>
                 </div>
 
                 <img id="sky" src="img/skyblue.png" alt="">
@@ -69,11 +77,11 @@
     <section  class="about-main">
         <div  id="about" class="about-container">
             <div class="about-img">
-                <img src="img/m-2.png" alt="">
+                <img src="img/m-2.png">
             </div>
             <div class="about-content">
-                <h1>Who am I?</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gravida id leo aliquet gravida odio. Mauris quam volutpat, eu rhoncus pellentesque amet volutpat morbi. Gravida quam vitae mauris, aliquam dignissim nulla vel. Senectus molestie donec ullamcorper ullamcorper malesuada.</p>
+                <h1 data-aos="zoom-out"  data-aos-duration="1000" data-aos-anchor-placement="top-center">Who am I?</h1>
+                <p data-aos="zoom-out"  data-aos-duration="1200" data-aos-anchor-placement="top-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gravida id leo aliquet gravida odio. Mauris quam volutpat, eu rhoncus pellentesque amet volutpat morbi. Gravida quam vitae mauris, aliquam dignissim nulla vel. Senectus molestie donec ullamcorper ullamcorper malesuada.</p>
             </div> 
             <!-- <img id="gre" src="img/a-green.png" alt="">  -->
             <img id="red" src="img/a-red.png" alt=""> 
@@ -81,15 +89,16 @@
         </div>
     </section>
     
-
-
     <!-- ====================== -->
-    <!-- skills -->
+    <!-- vids -->
     <section  class="vids-main">
-        <div class="vids-container">
+        <div class="vids-container" data-aos="zoom-out" data-aos-duration="1900">
             <video  loop autoplay muted>
                 <source src="img/asasa.mp4" type="video/mp4">
             </video>
+            
+            <h1  id="vids1" data-aos="zoom-out-right" data-aos-duration="1000">Make it simple,</h1>
+            <h1 id="vids2" data-aos="zoom-out-left" data-aos-duration="1200">but significant.</h1>
         </div>
     </section>
 
@@ -100,31 +109,33 @@
         <div class="skill-container">
             <div class="skill-content">
             <div class="tools">
-                <h1>tools</h1>
-                <p>figma</p>
-                <p>adobe xd</p>
-                <p>adobe Photoshop</p>
-                <p>framer</p>
-                <p>vscode</p>
+                <h1 data-aos="zoom-out"  data-aos-duration="1000" >tools</h1>
+                <p data-aos="fade-up"  data-aos-duration="1000" >figma</p>
+                <p data-aos="fade-up"  data-aos-duration="1000" >adobe xd</p>
+                <p data-aos="fade-up"  data-aos-duration="1000" >adobe Photoshop</p>
+                <p data-aos="fade-up"  data-aos-duration="1000" >vscode</p>
             </div>
             <div class="skills">
-                <h1>skills</h1>
-                <p>ux/ui</p>
-                <p>wireframing</p>
-                <p>prototyping</p>
-                <p>Banner Design</p>
-                <p>graphic design</p>
-                <p>web desig</p>
+                <h1 data-aos="zoom-out"  data-aos-duration="1500" >skills</h1>
+                <p data-aos="fade-up"  data-aos-duration="1000" >ux/ui</p>
+                <p data-aos="fade-up"  data-aos-duration="1000" >wireframing</p>
+                <p data-aos="fade-up"  data-aos-duration="1000" >prototyping</p>
+                <p data-aos="fade-up"  data-aos-duration="1000" >graphic design</p>
+                <p data-aos="fade-up"  data-aos-duration="1000" >web Design</p>
             </div>
             <div class="code">
-                <h1>code</h1>
-                <p>Css3</p>
-                <p>Html</p>
-                <p>Javascript</p>
-                <p>Aos libraries</p>
-                <p>Gsap.js</p>
+                <h1 data-aos="zoom-out"  data-aos-duration="2000" >code</h1>
+                <p data-aos="fade-up"  data-aos-duration="1000" >Css3</p>
+                <p data-aos="fade-up"  data-aos-duration="1000" >Html</p>
+                <!-- <p data-aos="fade-up"  data-aos-duration="1000" >Javascript</p> -->
+                <p data-aos="fade-up"  data-aos-duration="1000" >Aos.js</p>
+                <p data-aos="fade-up"  data-aos-duration="1000" >Gsap.js</p>
             </div>
             </div>
+            
+            <img id="g1" src="img/g1.png" alt=""> 
+            <img id="g2" src="img/g2.png" alt=""> 
+
         </div>
     </section>
 
@@ -133,19 +144,19 @@
     <!-- works -->
     <section class="work-main">
         <div id="work" class="work-container">
-            <h1>Work</h1>
-            <p> Creative, strategy and technology grounded in digital and the
+            <h1  data-aos="zoom-out"  data-aos-duration="1000">Work</h1>
+            <p  data-aos="zoom-out"  data-aos-duration="1500"> Creative, strategy and technology grounded in digital and the
                 power of human expression.</p>
-            <img src="img/m-3.png" alt="">
+            <img  data-aos="zoom-out"  data-aos-duration="2000"src="img/m-3.png" alt="" >
         </div>
     </section>
 
-    <section class="work-mains black" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+    <section class="work-mains black">
         <div class="work-containers">
             <!-- Swiper -->
             <div class="swiper-container">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide" data-aos="fade-up-right" data-aos-duration="1000">
+                    <div class="swiper-slide" data-aos="fade-up-right" data-aos-duration="1420">
                         <img src="img/w-1.png" alt="">
                         <a href="mockup">View Work &#8592;</a>
                     </div>
@@ -157,10 +168,14 @@
                         <img src="img/w-3.png" alt="">
                         <a  href="state">View Work &#8592;</a>
                     </div>
-                    <div class="swiper-slide" data-aos="fade-up-right" data-aos-duration="1120">
+                    <div class="swiper-slide" data-aos="fade-up-right" data-aos-duration="1220">
                          <img src="img/w-4.png" alt="">
-                         <a href="it">View Wonrk &#8592;</a>
+                         <a href="it">View Work &#8592;</a>
                     </div>
+                    <div class="swiper-slide" data-aos="fade-up-right" data-aos-duration="1220">
+                        <img src="img/w-5.png" alt="">
+                        <a href="it">View Work &#8592;</a>
+                   </div>
                 </div>
                 <!-- Add Pagination -->
                 <div class="swiper-pagination"></div>
@@ -176,7 +191,7 @@
         <div id="contact" class="footer-container">
             <div class="footer-row">
                 <div class="foot">
-                    <h2 data-aos="fade-up" data-aos-anchor="#example-anchor" data-aos-duration="1000">Get in touch</h2>
+                    <h2  data-aos="zoom-out"  data-aos-duration="1000">Get in touch</h2>
                     <p id="not" data-aos="fade-up" data-aos-anchor="#example-anchor" data-aos-duration="1200">don't be shy. Just fill out the form below. Don't like forms? That's ok, I'll get in touch with you.</p>
                     <input data-aos="fade-up" data-aos-anchor="#example-anchor" data-aos-duration="1400" type="text" placeholder="Email">
                     <a data-aos="fade-up" data-aos-anchor="#example-anchor" data-aos-duration="1400" class="foot-submit">submit </a>
@@ -191,10 +206,13 @@
 
                 <div id="nots" class="foot">
                     <h5 data-aos="fade-up" data-aos-anchor="#example-anchor" data-aos-duration="1000">Social media</h5>
-                        <div class="row">
+                <div class="row">
                     <a data-aos="fade-up" data-aos-anchor="#example-anchor" data-aos-duration="1200" href="https://www.facebook.com/Balongerssssss">Facebook</a>
                     <a data-aos="fade-up" data-aos-anchor="#example-anchor" data-aos-duration="1400"href="https://www.linkedin.com/feed/">Linkedin</a>
-                    </div>
+                   </div>
+                <div class="row">
+                   <a data-aos="fade-up" data-aos-anchor="#example-anchor" data-aos-duration="1400"href="https://www.linkedin.com/feed/">Github</a>        
+                </div>
                 </div>
                 <img id="c1" src="img/c-blue.png" alt="">
                 <img id="c2" src="img/c-green.png" alt="">
@@ -204,50 +222,38 @@
     </section>
     
 
-     <!-- ===================== -->
-     <!-- footer -->
-     <!-- Load Facebook SDK for JavaScript -->
-     <div id="fb-root"></div>
-     <script>
-            window.fbAsyncInit = function() {
-            FB.init({
-                xfbml            : true,
-                version          : 'v10.0'
-            });
-            };
-
-        (function(d, s, id) {
-                var js, fjs = d.getElementsByTagName(s)[0];
-                if (d.getElementById(id)) return;
-                js = d.createElement(s); js.id = id;
-                js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-                fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-      </script>
-
-      <!-- Your Chat Plugin code -->
-      <div class="fb-customerchat"
+    <!-- ===================== -->
+    <!-- chatbot -->
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+    window.fbAsyncInit = function() {
+        FB.init({ xfbml: true, version:'v10.0'});
+    };
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <!-- Your Chat Plugin code -->
+    <div class="fb-customerchat"
         attribution="setup_tool"
         page_id="242466009441114"
         theme_color="#333333">
-      </div>
-      <!-- ===================== -->
+    </div>
+    <!-- ===================== -->
 
 
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script> AOS.init();</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/CSSRulePlugin.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+<script src="gsap.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-<script>
-    var swiper = new Swiper('.swiper-container', {
-        slidesPerView: 4,
-        spaceBetween: 30,
-        loop:true,
-        freeMode: true,
-        autoplay: {
-            delay: 1500,
-            disableOnInteraction: false,
-        },
-    });
-</script>
-
+<script src="swiper.js"></script>
 </body>
 </html>
