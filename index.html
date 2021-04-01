@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
+    <meta property="fb:app_id"      content="2517204791917760" /> 
+    <meta property="og:type"        content="website" /> 
+    <meta property="og:url"         content="https://angelopantaleon.fordee.dev/" /> 
+    <meta property="og:title"       content="Angelo Portfolio" /> 
+    <meta property="og:image"       content="https://angelopantaleon.fordee.dev/img/gelo.png" /> 
+    <meta property="og:description" content="Providing Changes Without Limit!" />
+
+    <meta name="description" content="Providing Changes Without Limit!">
+    <meta name="keywords" content="Web,Mobile,Design,Programmer,HTML,CSS,JavaScript,Responsive">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="nav.css">
-    <link rel="stylesheet" href="contact.css">
-    <link rel="stylesheet" href="swiper.css">
-    <link rel="stylesheet" href="gsap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/gsap.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
@@ -38,16 +48,19 @@
                     </div>
                     <div class="nav-btn">
                         <label for="nav-check">
-                            <span></span>
-                            <span></span>
-                            <span></span>
+                            <div class="burger">
+                                <div class="line1"></div>
+                                <div class="line2"></div>
+                                <div class="line3"></div>
+                              </div>
                         </label>
                     </div>
 
                     <div class="nav-links">
                         <a class="nav1" href="#about">About</a>
-                        <a class="nav2" href="#work">Work</a>
-                        <a class="nav3" href="#contact">Contact me</a>
+                        <a class="nav2" href="#skill">Skills</a>
+                        <a class="nav3" href="#work">Work</a>
+                        <a class="nav4" href="#contact">Contact me</a>
                     </div>
                 </div>
             </nav>
@@ -55,7 +68,7 @@
 
                 <div class="bg-img">
                     <img class="c1" src="img/m1.png" alt="">
-                    <h1 class="c2">I’m a ux-ui designer & developer</h1>
+                    <h1 class="c2">I’m Ui designer & developer</h1>
                     <p class="c3">Design is intelligence made visible.</p>
                 </div>
 
@@ -71,7 +84,6 @@
     </header>
 
 
-
     <!-- ====================== -->
     <!-- ABOUT -->
     <section  class="about-main">
@@ -80,8 +92,11 @@
                 <img src="img/m-2.png">
             </div>
             <div class="about-content">
-                <h1 data-aos="zoom-out"  data-aos-duration="1000" data-aos-anchor-placement="top-center">Who am I?</h1>
-                <p data-aos="zoom-out"  data-aos-duration="1200" data-aos-anchor-placement="top-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gravida id leo aliquet gravida odio. Mauris quam volutpat, eu rhoncus pellentesque amet volutpat morbi. Gravida quam vitae mauris, aliquam dignissim nulla vel. Senectus molestie donec ullamcorper ullamcorper malesuada.</p>
+                <h1 data-aos="fade-up"  data-aos-duration="1000" data-aos-anchor-placement="top-center">Who am I?</h1>
+                <p data-aos="zoom-out"  data-aos-duration="1200" data-aos-anchor-placement="top-center">
+                    I'm a self-taught, Ui Ux Designer and also a Front Ui Developer.  I have 1 year of experience working in a start-up company as a Ui Ux Developer & Designer.  
+                    I'm self-motivated and love to work with a team, love to receive feedback and critic, and passionate about what I'm doing.
+                </p>
             </div> 
             <!-- <img id="gre" src="img/a-green.png" alt="">  -->
             <img id="red" src="img/a-red.png" alt=""> 
@@ -106,28 +121,29 @@
     <!-- ====================== -->
     <!-- skills -->
     <section  class="skill-main">
-        <div class="skill-container">
+        <div id="skill" class="skill-container">
             <div class="skill-content">
             <div class="tools">
                 <h1 data-aos="zoom-out"  data-aos-duration="1000" >tools</h1>
-                <p data-aos="fade-up"  data-aos-duration="1000" >figma</p>
-                <p data-aos="fade-up"  data-aos-duration="1000" >adobe xd</p>
-                <p data-aos="fade-up"  data-aos-duration="1000" >adobe Photoshop</p>
-                <p data-aos="fade-up"  data-aos-duration="1000" >vscode</p>
+                <p data-aos="fade-up"  data-aos-duration="1000" >Figma</p>
+                <p data-aos="fade-up"  data-aos-duration="1000" >Adobe xd</p>
+                <p data-aos="fade-up"  data-aos-duration="1000" >Adobe photoshop</p>
+                <p data-aos="fade-up"  data-aos-duration="1000" >Vscode</p>
             </div>
             <div class="skills">
                 <h1 data-aos="zoom-out"  data-aos-duration="1500" >skills</h1>
-                <p data-aos="fade-up"  data-aos-duration="1000" >ux/ui</p>
-                <p data-aos="fade-up"  data-aos-duration="1000" >wireframing</p>
-                <p data-aos="fade-up"  data-aos-duration="1000" >prototyping</p>
-                <p data-aos="fade-up"  data-aos-duration="1000" >graphic design</p>
-                <p data-aos="fade-up"  data-aos-duration="1000" >web Design</p>
+                <p data-aos="fade-up"  data-aos-duration="1000" >Ui/Ux</p>
+                <p data-aos="fade-up"  data-aos-duration="1000" >Wireframing</p>
+                <p data-aos="fade-up"  data-aos-duration="1000" >Prototyping</p>
+                <p data-aos="fade-up"  data-aos-duration="1000" >Graphic Design</p>
+                <p data-aos="fade-up"  data-aos-duration="1000" >Web Design</p>
             </div>
             <div class="code">
                 <h1 data-aos="zoom-out"  data-aos-duration="2000" >code</h1>
                 <p data-aos="fade-up"  data-aos-duration="1000" >Css3</p>
                 <p data-aos="fade-up"  data-aos-duration="1000" >Html</p>
-                <p data-aos="fade-up"  data-aos-duration="1000" >Javascript</p>
+                <!-- <p data-aos="fade-up"  data-aos-duration="1000" > (Basic) Javascript</p> -->
+                <p data-aos="fade-up"  data-aos-duration="1000" >Bootstrap</p>
                 <p data-aos="fade-up"  data-aos-duration="1000" >Aos.js</p>
                 <p data-aos="fade-up"  data-aos-duration="1000" >Gsap.js</p>
             </div>
@@ -144,38 +160,39 @@
     <!-- works -->
     <section class="work-main">
         <div id="work" class="work-container">
-            <h1  data-aos="zoom-out"  data-aos-duration="1000">Work</h1>
+            <h1  data-aos="fade-up"  data-aos-duration="1000">Work</h1>
             <p  data-aos="zoom-out"  data-aos-duration="1500"> Creative, strategy and technology grounded in digital and the
                 power of human expression.</p>
             <img  data-aos="zoom-out"  data-aos-duration="2000"src="img/m-3.png" alt="" >
         </div>
     </section>
 
-    <section class="work-mains black">
+    <section class="work-mains">
         <div class="work-containers">
+             <h1 data-aos="fade-up"  data-aos-duration="1000" data-aos-anchor-placement="top-center">Projects</h1>
             <!-- Swiper -->
             <div class="swiper-container">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide" data-aos="fade-up-right" data-aos-duration="1420">
-                        <img src="img/w-1.png" alt="">
-                        <a href="mockup">View Work &#8592;</a>
-                    </div>
-                    <div class="swiper-slide" data-aos="fade-up-right" data-aos-duration="1400">
-                        <img src="img/w-2.png" alt="">
-                        <a href="cargo">View Work &#8592;</a>
-                    </div>
+                  
                     <div class="swiper-slide" data-aos="fade-up-right" data-aos-duration="1800">
-                        <img src="img/w-3.png" alt="">
-                        <a  href="state">View Work &#8592;</a>
-                    </div>
-                    <div class="swiper-slide" data-aos="fade-up-right" data-aos-duration="1220">
-                         <img src="img/w-4.png" alt="">
-                         <a href="it">View Work &#8592;</a>
-                    </div>
-                    <div class="swiper-slide" data-aos="fade-up-right" data-aos-duration="1220">
                         <img src="img/w-5.png" alt="">
-                        <a href="it">View Work &#8592;</a>
-                   </div>
+                        <a href="karwahe.html">View Work <span>&#8592;</span> </a>
+                    </div>
+
+                    <div class="swiper-slide" data-aos="fade-up-right" data-aos-duration="1220">
+                        <img src="img/w-6.png" alt="">
+                        <a href="starosa.html">View Work <span>&#8592;</span></a>
+                    </div>
+                  
+                    <div class="swiper-slide" data-aos="fade-up-right" data-aos-duration="1420">
+                        <img src="img/w-7.png" alt="">
+                        <a href="ramquary.html">View Work <span>&#8592;</span></a>
+                    </div>
+                   
+                    <div class="swiper-slide" data-aos="fade-up-right" data-aos-duration="1000">
+                        <img src="img/w-8.png" alt="">
+                        <a href="kosmos.html">View Work <span>&#8592;</span></a>
+                    </div>
                 </div>
                 <!-- Add Pagination -->
                 <div class="swiper-pagination"></div>
@@ -185,9 +202,71 @@
     </section>
 
 
+    <section class="work-mains">
+        <div class="work-containers">
+         <h1 data-aos="fade-up"  data-aos-duration="1000">Mock-up Design</h1>
+            
+
+            <!-- Swiper -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" data-aos="fade-up-right" data-aos-duration="1800">
+                        <img src="img/w-3.png" alt="">
+                        <a href="state.html">View Work <span>&#8592;</span></a>
+                        
+                    </div>
+                  
+                    <div class="swiper-slide" data-aos="fade-up-right" data-aos-duration="1220">
+                        <img src="img/w-4.png" alt="">
+                        <a href="it.html">View Work <span>&#8592;</span></a>
+                   </div>
+                   
+                    <div class="swiper-slide" data-aos="fade-up-right" data-aos-duration="1420">
+                        <img src="img/w-1.png" alt="">
+                        <a href="mockup.html">View Work <span>&#8592;</span></a>
+                    </div>
+                
+                    <div class="swiper-slide" data-aos="fade-up-right" data-aos-duration="1400">
+                        <img src="img/w-2.png" alt="">
+                        <a href="cargo.html">View Work <span>&#8592;</span></a>
+                    </div>
+                    <div class="swiper-slide" data-aos="fade-up-right" data-aos-duration="1400">
+                        <img src="img/w-999.png" alt="">
+                        <a href="insurance.html">View Work <span>&#8592;</span></a>
+                    </div>
+                    
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+            <!-- Swiper-end -->
+        </div>
+    </section>
+    <section class="footer-main black" >
+        <div id="contact" class="footer-container">
+            <div class="footer-row">
+                <div class="foot">
+                    <h5 data-aos="fade-up"  data-aos-duration="1500">Get in touch</h5>
+                    <input data-aos="fade-up"  data-aos-duration="1500" type="text" placeholder="Email" />
+                    <a  data-aos="fade-up"  data-aos-duration="1500" class="foot-submit">submit </a>
+                </div>
+                <div class="foot">
+                    <h5 data-aos="fade-up"  data-aos-duration="1500">Contact</h5>
+                    <a data-aos="fade-up" data-aos-duration="1200" href="https://mail.google.com/mail/u/1/#inbox?compose=new">pantaleonangeloa@gmail.com</a>
+                    <a data-aos="fade-up"  data-aos-duration="1400"href="https://www.linkedin.com/feed/">Linkedin</a>
+                </div>
+                <div id="nots" class="foot">
+                    <h5 data-aos="fade-up"  data-aos-duration="1500">Social Media</h5>
+                    <a href="https://facebook.com/FordeeDevelopers" data-aos="fade-up"  data-aos-duration="1500">Facebook</a>
+                    <a data-aos="fade-up"  data-aos-duration="1500"href="https://github.com/balongers1">Github</a> 
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- ===================== -->
     <!-- footer -->
-    <section class="footer-main black">
+    <!-- <section class="footer-main black">
         <div id="contact" class="footer-container">
             <div class="footer-row">
                 <div class="foot">
@@ -211,7 +290,7 @@
                     <a data-aos="fade-up" data-aos-anchor="#example-anchor" data-aos-duration="1400"href="https://www.linkedin.com/feed/">Linkedin</a>
                    </div>
                 <div class="row">
-                   <a data-aos="fade-up" data-aos-anchor="#example-anchor" data-aos-duration="1400"href="https://www.linkedin.com/feed/">Github</a>        
+                   <a data-aos="fade-up" data-aos-anchor="#example-anchor" data-aos-duration="1400"href="https://github.com/balongers1">Github</a>        
                 </div>
                 </div>
                 <img id="c1" src="img/c-blue.png" alt="">
@@ -220,7 +299,7 @@
             </div>
         </div>
     </section>
-    
+     -->
 
     <!-- ===================== -->
     <!-- chatbot -->
@@ -249,15 +328,40 @@
         theme_color="#333333">
     </div>
     <!-- ===================== -->
+    
+<script>
+    const navSlide = () => {
+    const burger = document.querySelector('.burger');
+    const nav = document.querySelector('.nav-links');
+    const navLinks = document.querySelectorAll('.nav-links a');
 
+
+      burger.addEventListener('click', () =>{
+      // toggle
+      nav.classList.toggle('nav-active')
+
+      // animate
+      navLinks.forEach(( link, index) =>{
+          if(link.style.animation){
+              link.style.animation = '';
+          }else{
+              link.style.animation = `navLinkFade  0.5s ease forwards ${index / 7 + 0.3}s`;
+          }
+      });
+      // burger animation
+      burger.classList.toggle('toggle');
+  });
+}
+ navSlide();  
+</script>
 
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script> AOS.init();</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/CSSRulePlugin.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
-<script src="gsap.js"></script>
+<script src="js/gsap.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<script src="swiper.js"></script>
+<script src="js/swiper.js"></script>
 </body>
 </html>
