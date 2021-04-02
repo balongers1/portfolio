@@ -42,6 +42,7 @@
 
     .swiper-slide a{
       color: #1A1A1A;
+      z-index: 900000;
     }
 
     .swiper-slide a:hover{

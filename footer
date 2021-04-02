@@ -1,0 +1,40 @@
+<!-- ===================== -->
+    <!-- footer -->
+    <!-- <section class="footer-main black">
+        <div id="contact" class="footer-container">
+            <div class="footer-row">
+                <div class="foot">
+                    <h2  data-aos="zoom-out"  data-aos-duration="1000">Get in touch</h2>
+                    <p id="not" data-aos="fade-up" data-aos-anchor="#example-anchor" data-aos-duration="1200">don't be shy. Just fill out the form below. Don't like forms? That's ok, I'll get in touch with you.</p>
+                    <input data-aos="fade-up" data-aos-anchor="#example-anchor" data-aos-duration="1400" type="text" placeholder="Email">
+                    <a data-aos="fade-up" data-aos-anchor="#example-anchor" data-aos-duration="1400" class="foot-submit">submit </a>
+                </div>
+                <div class="gray"></div>
+
+                <div class="foot">
+                    <h5 data-aos="fade-up" data-aos-anchor="#example-anchor" data-aos-duration="1000">Email</h5>
+                    <a data-aos="fade-up" data-aos-anchor="#example-anchor" data-aos-duration="1200" href="https://mail.google.com/mail/u/1/#inbox?compose=new">pantaleonangeloa@gmail.com</a>
+                </div>
+                <div class="gray"></div>
+
+                <div id="nots" class="foot">
+                    <h5 data-aos="fade-up" data-aos-anchor="#example-anchor" data-aos-duration="1000">Social media</h5>
+                <div class="row">
+                    <a data-aos="fade-up" data-aos-anchor="#example-anchor" data-aos-duration="1200" href="https://www.facebook.com/Balongerssssss">Facebook</a>
+                    <a data-aos="fade-up" data-aos-anchor="#example-anchor" data-aos-duration="1400"href="https://www.linkedin.com/feed/">Linkedin</a>
+                   </div>
+                <div class="row">
+                   <a data-aos="fade-up" data-aos-anchor="#example-anchor" data-aos-duration="1400"href="https://github.com/balongers1">Github</a>        
+                </div>
+                </div>
+                <img id="c1" src="img/c-blue.png" alt="">
+                <img id="c2" src="img/c-green.png" alt="">
+                <img id="c3" src="img/c-orange.png" alt="">
+            </div>
+        </div>
+    </section>
+     -->
+
+    <!-- ===================== -->
+    <!-- chatbot -->
+    <!-- Load Facebook SDK for JavaScript -->

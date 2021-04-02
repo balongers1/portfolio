@@ -1,0 +1,20 @@
+.cursor{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: white;
+    transition: 0.1s;
+    transform:  translate(-50%,-50%);
+    pointer-events: inherit;
+    z-index: 100;
+    mix-blend-mode: difference;
+}
+
+h1 a p {
+    transition: 0.1s;
+}
+
+ p:hover ~ .cursor{
+    transform: scale(6);
+}  
