@@ -13,7 +13,7 @@ nav{
   opacity: 1;
 }
 .nav-title a{
-    font-family: 'Permanent Marker', cursive;
+  font-family: 'DM Mono', monospace;
     font-size: 35px;
     color: #333333;
     text-decoration: none;

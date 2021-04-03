@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Days+One&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'DM Mono', monospace;
     color: #1A1A1A;
     scroll-behavior: smooth;
 }
@@ -34,9 +34,10 @@ header{
 .bg-content h1{
     margin: 10px;
     text-align: center;
+    font-family: 'Days One', sans-serif;
 }
 .bg-content p{
-    color: #4b4b4b;
+    color: #636363;
     z-index: 1;
 }
 
@@ -68,6 +69,7 @@ header{
 .bg-img h1{
     font-size: 35px;
     z-index: 1;
+    font-family: 'Days One', sans-serif;
 }
 .down{
     position: absolute;
@@ -149,6 +151,7 @@ header{
 .about-content h1{
     font-size: 35px;
     letter-spacing: 0.05em;
+    font-family: 'Days One', sans-serif;
 }
 
 .about-img {
@@ -212,6 +215,7 @@ header{
 
 .skill-container h1{
     margin-bottom: 40px;
+    font-family: 'Days One', sans-serif;
     font-size: 30px;
 }
 .skill-content{
@@ -280,6 +284,7 @@ header{
 
 .work-container h1{
     font-size: 35px;
+    font-family: 'Days One', sans-serif;
     letter-spacing: 0.05em;
 }
 
@@ -304,6 +309,7 @@ header{
 .work-containers h1{
    text-align: center;
    font-size: 30px;
+   font-family: 'Days One', sans-serif;
 }
 
 
@@ -326,6 +332,8 @@ header{
     /* padding-bottom: 190px; */
 }
 
+
+
 video{
     border-radius: 10px;
     /* border: black solid; */
@@ -342,6 +350,7 @@ video{
     text-transform: uppercase;
     font-weight: 900;   
     font-style: italic;
+    font-family: 'Poppins', sans-serif; 
 }
 
 #vids1{
