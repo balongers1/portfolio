@@ -18,3 +18,9 @@ h1 a p {
  p:hover ~ .cursor{
     transform: scale(6);
 }  
+
+@media only screen and (max-width: 699px) {
+    .cursor{
+        display: none;
+    }
+}
