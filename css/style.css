@@ -418,7 +418,7 @@ video{
         z-index: 1;
     }
     .about-content p{
-       text-align: justify;
+       text-align: left;
     }
  
     .about-content {
