@@ -222,10 +222,13 @@
         /* border: solid black; */
         margin-top: 90px;
     }
+    .skills-content p{
+        text-align: justify;
+    }
 }
 
 @media only screen and (max-width: 450px) {
-
+    
    
 }
 
