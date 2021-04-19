@@ -36,6 +36,8 @@
         <h1 class="anim1"> Hi!</h1>
     </div>
     <div class="cursor"></div>
+
+
     <!-- ====================== -->
     <!-- BG-HERO-->
     <header>
@@ -57,7 +59,6 @@
                               </div>
                         </label>
                     </div>
-
                     <div class="nav-links">
                         <a class="nav1" href="#about">About</a>
                         <a class="nav2" href="#skill">Skills</a>
@@ -106,6 +107,7 @@
         </div>
     </section>
     
+
     <!-- ====================== -->
     <!-- vids -->
     <section  class="vids-main">
@@ -113,7 +115,6 @@
             <video  loop autoplay muted>
                 <source src="img/asasa.mp4" type="video/mp4">
             </video>
-            
             <h1  id="vids1" data-aos="zoom-out-right" data-aos-duration="1000">Make it simple,</h1>
             <h1 id="vids2" data-aos="zoom-out-left" data-aos-duration="1200">but significant.</h1>
         </div>
@@ -139,8 +140,6 @@
                 <p data-aos="fade-up"  data-aos-duration="1000" >Web Design</p>
                 <p data-aos="fade-up"  data-aos-duration="1000" >Graphic Design</p>
                 <p data-aos="fade-up"  data-aos-duration="1000" >Prototyping</p>
-              
-           
             </div>
             <div class="code">
                 <h1 data-aos="zoom-out"  data-aos-duration="2000" >Code</h1>
@@ -152,10 +151,8 @@
                 <p data-aos="fade-up"  data-aos-duration="1000" >Gsap.js</p>
             </div>
             </div>
-            
             <img id="g1" src="img/g1.png" alt=""> 
             <img id="g2" src="img/g2.png" alt=""> 
-
         </div>
     </section>
 
@@ -171,30 +168,23 @@
         </div>
     </section>
 
+
     <section class="work-mains">
         <div class="work-containers">
              <h1 data-aos="fade-up"  data-aos-duration="1000">Projects</h1>
             <!-- Swiper -->
             <div class="swiper-container">
                 <div class="swiper-wrapper">
-                  
                     <div class="swiper-slide" data-aos="fade-up-right" data-aos-duration="1800">
-                       
                         <a href="karwahe.html"><img src="img/w-5.png" alt=""> View Work<span> &#8592;</span> </a>
                     </div>
- 
                     <div class="swiper-slide" data-aos="fade-up-right" data-aos-duration="1220">
-                       
                         <a href="starosa.html"><img src="img/w-6.png" alt="">View Work <span>&#8592;</span></a>
                     </div>
-                  
                     <div class="swiper-slide" data-aos="fade-up-right" data-aos-duration="1420">
-                       
                         <a href="ramquary.html"><img src="img/w-7.png" alt="">View Work <span>&#8592;</span></a>
                     </div>
-                   
                     <div class="swiper-slide" data-aos="fade-up-right" data-aos-duration="1000">
-                      
                         <a href="kosmos.html"><img src="img/w-8.png" alt="">View Work <span>&#8592;</span></a>
                     </div>
                 </div>
@@ -209,38 +199,24 @@
     <section class="work-mains">
         <div class="work-containers">
          <h1 data-aos="fade-up"  data-aos-duration="1000">Mock-up Design</h1>
-            
-
             <!-- Swiper -->
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide" data-aos="fade-up-right" data-aos-duration="1800">
-                        
                         <a href="state.html"><img src="img/w-3.png" alt="">View Work <span>&#8592;</span></a>
-                        
                     </div>
-                  
                     <div class="swiper-slide" data-aos="fade-up-right" data-aos-duration="1220">
-                        
                         <a href="it.html"><img src="img/w-4.png" alt="">View Work <span>&#8592;</span></a>
                    </div>
-                   
                     <div class="swiper-slide" data-aos="fade-up-right" data-aos-duration="1420">
-                        
                         <a href="mockup.html"><img src="img/w-1.png" alt="">View Work <span>&#8592;</span></a>
                     </div>
-                
-                    <div class="swiper-slide" data-aos="fade-up-right" data-aos-duration="1400">
-                       
+                    <div class="swiper-slide" data-aos="fade-up-right" data-aos-duration="1400"> 
                         <a href="cargo.html"> <img src="img/w-2.png" alt="">View Work <span>&#8592;</span></a>
                     </div>
                     <div class="swiper-slide" data-aos="fade-up-right" data-aos-duration="1400">
-                    
                         <a href="insurance.html"><img src="img/w-10.png" alt="">View Work <span>&#8592;</span></a>
                     </div>
-                   
-                    
-                    
                 </div>
                 <!-- Add Pagination -->
                 <div class="swiper-pagination"></div>
@@ -248,6 +224,8 @@
             <!-- Swiper-end -->
         </div>
     </section>
+
+
     <section class="footer-main black" >
         <div id="contact" class="footer-container">
             <div class="footer-row">
@@ -271,8 +249,8 @@
     </section>
     
 
-    <div id="fb-root"></div>
-    <script>
+<div id="fb-root"></div>
+<script>
         window.fbAsyncInit = function() {
         FB.init({
             xfbml            : true,
@@ -296,18 +274,28 @@
     </div>
     <!-- ===================== -->
 
+</script>    
 
+<!-- ===================== -->
+<!-- sticky nav -->
+<script type="text/javascript">
+  window.addEventListener("scroll", function(){
+          var header = document.querySelector(".nav");
+          header.classList.toggle("sticky",window.scrollY > 0);
+      })
+</script>
+
+<!-- ===================== -->
+<!-- Mouse pointer -->
 <script>
-    // const cursor = document.querySelector('.cursor');
-    // document.addEventListener('mousemove', (e) =>{
-    //     cursor.style.left = e.pageX + 'px';
-    //     cursor.style.top =  e.pageY + 'px';
-    // })
     const cursor = document.querySelector('.cursor');
     document.addEventListener('mousemove', (e) =>{
         cursor.setAttribute("style","top:" +(e.pageY - 20) +"px; left: "+(e.pageX - 20)+"px;")
     })
 </script>
+
+<!-- ===================== -->
+<!-- Burger Menu-->
 <script>
     const navSlide = () => {
     const burger = document.querySelector('.burger');
@@ -318,6 +306,7 @@
     }
     navSlide();  
 </script>
+
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script> AOS.init();</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/CSSRulePlugin.min.js"></script>

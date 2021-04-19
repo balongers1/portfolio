@@ -31,6 +31,9 @@ header{
     background: #FFFAE0;
 }
 
+.bg-main{
+    /* border: red solid; */
+}
 .bg-content h1{
     margin: 10px;
     text-align: center;
@@ -43,6 +46,7 @@ header{
 
 
 .bg-content{
+    margin-top: 110px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -405,6 +409,7 @@ video{
         padding-bottom: 40px;
     }
     .bg-content{
+        margin-top: 0px;
         width: 100%;
     }
     
