@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta property="fb:app_id"      content="2517204791917760" /> 
+    <meta property="og:type"        content="website" /> 
+    <meta property="og:url"         content="https://angelopantaleon.fordee.dev/" /> 
+    <meta property="og:title"       content="Angelo Portfolio" /> 
+    <meta property="og:image"       content="https://angelopantaleon.fordee.dev/img/gelo.png" /> 
+    <meta property="og:description" content="Providing Changes Without Limit!" />
+
+    <meta name="description" content="Providing Changes Without Limit!">
+    <meta name="keywords" content="Web,Mobile,Design,Programmer,HTML,CSS,JavaScript,Responsive">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/gsap.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>ANGELO PANTALEON</title>
+</head>
+<body >
+
+    <div class="overlay">
+        <h1 class="anim1 "><img src="img/ram-big.png" alt=""></h1>
+    </div>
+
+    <!-- ====================== -->
+    <!-- BG-HERO-->
+    <header>
+        <div class="bg-main ">
+            <nav>
+                <div class="nav">
+                    <input type="checkbox" id="nav-check" />
+                    <div class="nav-header">
+                        <div class="nav-title">
+                            <a href="index.html" >&#8592; back</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- ====================== -->
+    <!-- skills -->
+    <section  class="skills-main">
+        <div id="skills" class="skills-container">
+            <div class="img-big">
+                <img  src="img/ram.png" alt="">  
+            </div>
+            <div class="skills-content">   
+                <img class="c1" src="img/ram-s.png" alt="">
+                <h1 class="c2">Ramquary<br> <span>(Aquarium Guide Application)</span><br><br> <span><b> Position:</b> UI/UX Designer</span></h1>
+                <p class="c3">Along with helping you care for your fish and maintain the health of your tank, the Ramquary app now helps you learn more about your favorite fish and what they need to thrive</p>
+                <br>
+            </div>
+        </div>
+    </section>
+
+    <section  class="wire-main">
+        <div id="wire" class="wire-container">
+            <h1 data-aos="fade-up"  data-aos-duration="1000">High Fidelity Wireframe</h1>
+            <div class="img-bigs" data-aos="zoom-out"  data-aos-duration="1000">
+                <img  src="img/ram-wire.png" alt="">  
+            </div>
+        </div>
+    </section>
+
+    <section class="footer-main black" >
+        <div id="contact" class="footer-container">
+            <div class="footer-row">
+                <div class="foot">
+                    <h5 data-aos="fade-up"  data-aos-duration="1500">Get in touch</h5>
+                    <input data-aos="fade-up"  data-aos-duration="1500" type="text" placeholder="Email" />
+                    <a  data-aos="fade-up"  data-aos-duration="1500" class="foot-submit">submit </a>
+                </div>
+                <div class="foot">
+                    <h5 data-aos="fade-up"  data-aos-duration="1500">Contact</h5>
+                    <a data-aos="fade-up" data-aos-duration="1200" href="https://mail.google.com/mail/u/1/#inbox?compose=new">pantaleonangeloa@gmail.com</a>
+                    <a data-aos="fade-up"  data-aos-duration="1400"href="https://www.linkedin.com/feed/">Linkedin</a>
+                </div>
+                <div id="nots" class="foot">
+                    <h5 data-aos="fade-up"  data-aos-duration="1500">Social Media</h5>
+                    <a href="https://facebook.com/FordeeDevelopers" data-aos="fade-up"  data-aos-duration="1500">Facebook</a>
+                    <a data-aos="fade-up"  data-aos-duration="1500"href="https://github.com/balongers1">Github</a> 
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- ===================== -->
+    <!-- chatbot -->
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+        window.fbAsyncInit = function() {
+        FB.init({
+            xfbml            : true,
+            version          : 'v10.0'
+        });
+        };
+
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your Chat Plugin code -->
+    <div class="fb-customerchat"
+        attribution="setup_tool"
+        page_id="242466009441114"
+        theme_color="#333333">
+    </div>
+    <!-- ===================== -->
+    
+<script>
+    const navSlide = () => {
+    const burger = document.querySelector('.burger');
+    const nav = document.querySelector('.nav-links');
+    const navLinks = document.querySelectorAll('.nav-links a');
+
+
+      burger.addEventListener('click', () =>{
+      // toggle
+      nav.classList.toggle('nav-active')
+
+      // animate
+      navLinks.forEach(( link, index) =>{
+          if(link.style.animation){
+              link.style.animation = '';
+          }else{
+              link.style.animation = `navLinkFade  0.5s ease forwards ${index / 7 + 0.3}s`;
+          }
+      });
+      // burger animation
+      burger.classList.toggle('toggle');
+  });
+}
+ navSlide();  
+</script>
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script> AOS.init();</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/CSSRulePlugin.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+<script src="js/gsap.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="js/swiper.js"></script>
+</body>
+</html>
