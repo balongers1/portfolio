@@ -91,7 +91,7 @@ header{
 #voilet,
 #yellow{
     position: absolute;
-    filter: blur(5px);
+    filter: blur(15px);
 }
 #sky{
     left: 100px;
@@ -167,7 +167,7 @@ header{
 #red,
 #vio{
     position: absolute;
-    filter: blur(6px);
+    filter: blur(15px);
 }
 
 #vio{
@@ -236,7 +236,7 @@ header{
 #g1,
 #g2{
     position: absolute;
-    filter: blur(6px);
+    filter: blur(15px);
 }
 
 #g2{
@@ -304,7 +304,9 @@ header{
 .work-containers{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-evenly; */
     padding: 20px 0 20px 20px;
     height: 100%;
     margin: 20px 0;
@@ -315,9 +317,12 @@ header{
    font-size: 30px;
    font-family: 'Days One', sans-serif;
 }
-
-
-
+.work-containers p{
+    width: 20%;
+    margin: 20px;
+    text-align: center;
+    color: #4b4b4b;
+ }
 /* ===================== */
 /* vids */
 .vids-main{
