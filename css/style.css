@@ -317,9 +317,19 @@ header{
    font-size: 30px;
    font-family: 'Days One', sans-serif;
 }
+
+#will{
+    width: 20%;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    color:#eb622c;
+}
+
 .work-containers p{
     width: 20%;
-    margin: 20px;
+    margin-top: 20px;
     text-align: center;
     color: #4b4b4b;
  }
